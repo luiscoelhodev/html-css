@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    /* height: 100%; --> Pra poder usar degradê */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #D99982, #bb3529be );
+}
+
+h1 {
+    color: #262523; /* Cor da fonte */
+    text-align: center;
+    text-shadow: 1px 1px 1px #aca79ed8;
+}
+
+h2 {
+    color: #8C281F; /* Cor da fonte */
+}
+
+main {
+    background-color: white; /* Conteúdo é ideal que esteja com fundo branco e letra preta --> Para leitura! */
+    border-radius: 10px; /* Arredondar as bordas */
+    box-shadow: 5px 5px 10px #8c281fb4; /* Colocar uma sombra na caixa */
+    width: 600px; /* Largura da caixa */
+    margin: auto; /* Centralizar */
+    padding: 10px; /* Acolchoamento (Espaço entre o texto e o final da caixa */
+
+}
+
+p {
+    text-align: justify; /* Todos os parágrafos justificados */
+}
